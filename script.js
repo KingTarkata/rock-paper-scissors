@@ -35,8 +35,6 @@ function getPlayerChoice(){
             
         case 'scissors':
             return playerChoice;
-        case playerChoice === null:
-            return;
             
         default: alert('Not an option'), getPlayerChoice();
     }
